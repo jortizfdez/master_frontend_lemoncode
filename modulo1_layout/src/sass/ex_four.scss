@@ -1,0 +1,69 @@
+@import "reset";
+@import "layout";
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-a {
+    grid-area: content-a;
+    background-color: yellow;
+}
+
+.content-b {
+    grid-area: content-b;
+    background-color: blue;
+}
+
+.tricks {
+    grid-area: tricks;
+    background-color: pink;
+}
+
+.w3c {
+    grid-area: w3c;
+    background-color: pink;
+}
+
+.jss {
+    grid-area: jss;
+    background-color: pink;
+}
+
+@media screen and (min-width : 75rem) {
+
+    body {
+        width: 90%;
+    }
+
+    .main-content {
+        @include full-resolution;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width : 74.9rem) and (min-width: 60rem){
+
+    body {
+        width: 95%;
+    }
+
+    .main-content {
+        @include large-resolution;
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width : 59.9rem) and (min-width: 48rem) {
+    .main-content {
+        @include medium-resolution;
+    }
+}
+
+@media screen and (max-width: 47.9rem) {
+    @include small-resolution;
+}

@@ -1,0 +1,115 @@
+@import "reset";
+
+:root {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 700px) {
+
+    div.header {
+        display: flex;
+        background-color: pink;
+        margin: 1px auto;
+        flex-shrink: 1;
+    }
+
+    div.secondary-header{
+        display: flex;
+    }
+
+    .header div {
+        flex: 1;
+    }
+
+    .secondary-header div {
+        border: 1px solid;
+        border-bottom: 3px solid grey;
+        font-size: small;
+        flex: 1;
+        text-align: center;
+    }
+
+    .logo {
+        flex: 1;
+        padding-left: 0.1em;
+        text-align: start;
+    }
+
+    .name {
+        flex: 1;
+        text-align: center;
+    }
+
+    .user {
+        flex: 1;
+        padding-right: 0.2em;
+        text-align: end;
+    }
+    
+    .container {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    div.header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background-color: pink;
+        margin: 1px auto;
+    }
+
+    .container {
+        flex: 1;
+    }
+
+    div.secondary-header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+
+    .secondary-header div {
+        height: 90%;
+        border: 2px solid;
+        border-color: grey;
+        flex: 1;
+        flex-shrink: 1;
+        text-align: center;
+        font-size: small;
+    }
+
+    .logo {
+        padding-left: 0.1em;
+        width: 50%;
+        text-align: start;
+    }
+
+    .name {
+        display: none;
+    }
+
+    .user {
+        padding-right: 0.2em;
+        width: 50%;
+        text-align: end;
+    }
+
+}

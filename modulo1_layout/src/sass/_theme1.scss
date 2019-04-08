@@ -1,0 +1,41 @@
+div {
+    border: solid 1px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.base {
+    height: 20%;
+    background-color: red;
+}
+
+.important {
+    height: 20%;
+    background-color: darkred;
+}
+
+.warning {
+    height: 20%;
+    background-color: pink;
+}
+
+.principal {
+    height: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.secondary {
+    height: 7%;
+    font-family: monospace;
+    border: none;
+    font-size: 1.5em;
+}
+
+.box-with-shadow {
+    height: 20%;
+    box-shadow: -5px 10px;
+}
