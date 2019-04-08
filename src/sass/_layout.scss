@@ -1,0 +1,60 @@
+@mixin base-grid-definition{
+    display: grid;
+}
+
+@mixin full-resolution {
+    @include base-grid-definition();
+
+    grid-template-areas: 
+        "tricks content-a content-a content-a"
+        "tricks content-a content-a content-a"
+        "tricks content-a content-a content-a"
+        "w3c content-b content-b content-b"
+        "jss content-b content-b content-b"
+        "jss content-b content-b content-b" ;
+    grid-template-columns: repeat (1fr); 
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+}
+
+@mixin large-resolution {
+    @include base-grid-definition();
+
+    grid-template-areas: 
+    "tricks content-a content-a content-a"
+    "tricks content-a content-a content-a"
+    "tricks content-a content-a content-a"
+    "w3c content-b content-b content-b"
+    "jss content-b content-b content-b"
+    "jss content-b content-b content-b";
+    grid-template-columns: repeat (1fr); 
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+
+}
+
+@mixin medium-resolution {
+    @include base-grid-definition();
+
+    grid-template-areas: 
+        "tricks w3c jss"
+        "content-a content-a content-a"
+        "content-b content-b content-b";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 40vh 40vh;
+}
+
+@mixin small-resolution {
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
+        .main-content-item {
+            flex-grow: 1;
+        }   
+
+        .nav-content-item {
+            flex-grow: 0;
+        }
+    }
+}

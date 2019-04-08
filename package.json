@@ -1,0 +1,20 @@
+{
+  "name": "layout",
+  "version": "1.0.0",
+  "description": "practicas modulo 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index_ex4.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modulo1",
+    "layout"
+  ],
+  "author": "Javier Ortiz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel": "^1.12.3"
+  }
+}
