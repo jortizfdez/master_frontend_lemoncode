@@ -7,29 +7,25 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-div.flex-container {
-    margin: 0;
-    padding: 0;
+.flex-container{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
 }
 
-.flex-item{
-    height: 150px;
+.flex-item  {
+    min-height: 20vh;
+    min-width: 10vh;
     color: white;
     font-weight: lighter;
     font-size: 1.5em;
+    margin: 0 0.4em 0 0.4em;
+    display: flex;
+    align-items: center;
     text-align: center;
-    margin: 0px 5px 0px 5px;
-    box-sizing: border-box;
-    flex:1;
 }
 
-p{
-    padding-top: 40%;
-    padding-bottom: 40%;
+.flex-container div:first-child {
+    background-color: darken($color: $baseColor, $amount: 40%);
 }
 
 .flex-container div:first-child {
