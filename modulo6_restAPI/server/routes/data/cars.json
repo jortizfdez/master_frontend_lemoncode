@@ -1,0 +1,80 @@
+[
+    {
+        "car_id": 1,
+        "name": "ABX",
+        "brand": "Tokiota",
+        "year_release": "1999"
+    },
+    {
+        "car_id": 2,
+        "name": "AZE",
+        "brand": "Tokiota",
+        "year_release": "1995"
+    },
+    {
+        "car_id": 3,
+        "name": "Colola",
+        "brand": "GIA",
+        "year_release": "2015"
+    },
+    {
+        "car_id": 57,
+        "name": "Maverick",
+        "brand": "Foo",
+        "year_release": "1965"
+    },
+    {
+        "car_id": 59,
+        "name": "Calel",
+        "brand": "HMI",
+        "year_release": "1975"
+    },
+    {
+        "car_id": 61,
+        "name": "Green Roaster",
+        "brand": "HMI",
+        "year_release": "1976"
+    },
+    {
+        "car_id": 62,
+        "name": "Peugeot 3008",
+        "brand": "Peugeot",
+        "year_release": "2019"
+    },
+    {
+        "car_id": 63,
+        "name": "2",
+        "brand": "2",
+        "year_release": "2"
+    },
+    {
+        "car_id": 64,
+        "name": "2",
+        "brand": "2",
+        "year_release": "2"
+    },
+    {
+        "car_id": 65,
+        "name": "a",
+        "brand": "a",
+        "year_release": "a"
+    },
+    {
+        "car_id": 66,
+        "name": "a",
+        "brand": "a",
+        "year_release": "a"
+    },
+    {
+        "car_id": 67,
+        "name": "b",
+        "brand": "b",
+        "year_release": "b"
+    },
+    {
+        "car_id": 68,
+        "name": "Caleljavi",
+        "brand": "HMI",
+        "year_release": "1975"
+    }
+]
