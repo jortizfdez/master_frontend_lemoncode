@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component specs should display textfield using snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+      data-shrink="true"
+    >
+      Test label
+    </label>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    >
+      <input
+        aria-invalid="false"
+        class="MuiInputBase-input MuiInput-input"
+        type="text"
+        value="Test value"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
