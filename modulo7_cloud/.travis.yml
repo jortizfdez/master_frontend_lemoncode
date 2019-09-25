@@ -1,0 +1,9 @@
+sudo: required
+services:
+ - docker
+script:
+ - docker build -t cloudlab .
+after_success:
+ - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+ - docker tag cloudlab $DOCKER_USER/cloudlab
+ - docker push $DOCKER_USER/cloudlab
